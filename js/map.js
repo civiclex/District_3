@@ -27,10 +27,10 @@ map.addLayer(layer);
 //Create the district boundaries layer from the geojson
 $.getJSON("data/Dist3.geojson", function(data) {
     districtLayer = L.geoJson(data, {
-    onEachFeature: function (feature, layer){
+    /* onEachFeature: function (feature, layer){
         district.addLayer(layer), 
         layer.bindPopup('District '+feature.properties.DISTRICT)},
-    // pane: "pane450",
+    // pane: "pane450", */
     weight: 1,
     opacity: 1,
     color: '#fa0000',
