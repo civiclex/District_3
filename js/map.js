@@ -28,8 +28,8 @@ map.addLayer(layer);
 $.getJSON("data/Dist3.geojson", function(data) {
     focustractsLayer = L.geoJson(data, {
     onEachFeature: function (feature, layer){
-        focustracts.addLayer(layer)/* , 
-        layer.bindPopup('<b>'+feature.properties.NAMELSAD10+'</b><br>Low Response: '+feature.properties.low_response) */},
+        focustracts.addLayer(layer), 
+        layer.bindPopup('District '+feature.properties.DISTRICT)},
     // pane: "pane450",
     weight: 1,
     opacity: 1,
