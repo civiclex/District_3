@@ -1,5 +1,5 @@
 //create the empty layers
-var dataLayer = L.layerGroup();
+var district = L.layerGroup();
 
  //Initialize the leaflet map
  var map = L.map('map', {
