@@ -22,6 +22,8 @@ $.getJSON("data/Dist3.geojson", function(data) {
     weight: 1,
     opacity: 1,
     color: '#ef6e4e',
-    dashArray: '3'
+    fillColor: #FFA181,
+    fillOpacity: .25
+    //dashArray: '3'
 }).addTo(map);
 });
