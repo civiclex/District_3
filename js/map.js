@@ -19,6 +19,6 @@ $.getJSON("data/Dist3.geojson", function(data) {
     districtLayer = L.geoJson(data, {
     stroke: false,
     fillColor: '#ef6e4e',
-    fillOpacity: 0.25
+    fillOpacity: 0.1
 }).addTo(map);
 });
