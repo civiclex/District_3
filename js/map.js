@@ -21,7 +21,7 @@ $.getJSON("data/Dist3.geojson", function(data) {
     districtLayer = L.geoJson(data, {
     weight: 1,
     opacity: 1,
-    color: '#fa0000',
+    color: '#ef6e4e',
     dashArray: '3'
 }).addTo(map);
 });
