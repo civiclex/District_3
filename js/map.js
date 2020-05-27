@@ -19,11 +19,7 @@ map.addLayer(layer);
 //Create the district boundaries layer from the geojson
 $.getJSON("data/Dist3.geojson", function(data) {
     districtLayer = L.geoJson(data, {
-    //weight: 1,
-    //opacity: 1,
-    //color: '#ef6e4e',
     fillColor: '#FFA181',
     fillOpacity: 0.25
-    //dashArray: '3'
 }).addTo(map);
 });
