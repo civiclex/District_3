@@ -20,7 +20,7 @@ map.addLayer(layer);
 $.getJSON("data/Dist3.geojson", function(data) {
     districtLayer = L.geoJson(data, {
     stroke: false,
-    fillColor: '#FFA181',
+    fillColor: '#ef6e4e',
     fillOpacity: 0.25
 }).addTo(map);
 });
