@@ -5,6 +5,10 @@
     zoomControl: true,
     dragging: true,
 }); */
+
+//Create blank layers
+var districtLayer,
+    baseLayer;
      
 //Create the baselayer
 var baseLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
