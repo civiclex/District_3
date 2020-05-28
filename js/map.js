@@ -32,4 +32,3 @@ var map = L.map('map', {
 }).fitBounds(districtLayer.getBounds());
 baseLayer.addTo(map);
 districtLayer.addTo(map);
-})
